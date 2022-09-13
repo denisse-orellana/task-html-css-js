@@ -1,0 +1,54 @@
+/* 1rem => 16px */
+/* Con font-size: 62,5% => 1rem => 10px */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62,5%;
+}
+body {
+  background-color: #DCEAFB;
+}
+.main__section {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  gap: 20px;
+  width: 100%;
+}
+.main__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem;;
+}
+.main__section-card {
+  width: 200px;
+}
+.main__section-card div {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.main__section-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.main__section-card p {
+  font-size: 1rem;
+  padding: 0 5px;
+}
+.blue {
+  background-color: #83AEE2;
+}
+.orange {
+  background-color: #FCD4AF;
+}
+.green {
+  background-color: #B0CE6F;
+}
+.pink {
+  background-color: #F3AECE;
+}
